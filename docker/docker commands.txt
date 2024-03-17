@@ -1,0 +1,17 @@
+PS E:\workspace\devops\docker\springboot-docker> docker build -t spring-docker-image:1.0 .
+PS E:\workspace\devops\docker\springboot-docker> docker images
+PS E:\workspace\devops\docker\springboot-docker> docker run -d -p 9090:828 spring-docker-image:1.0 
+PS E:\workspace\devops\docker\springboot-docker> docker ps
+PS E:\workspace\devops\docker\springboot-docker> docker exec -it 767c215cf774 /bin/bash 
+bash-4.4# pwd
+/aapContainer
+bash-4.4# cd ..
+bash-4.4# ls
+aapContainer  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+bash-4.4#
+bash-4.4# cd /aapContainer/
+bash-4.4# ls
+spring-docker.jar
+bash-4.4#
+
+
