@@ -22,7 +22,7 @@
 #### 15. Remove all unused images:    docker image prune
 
 
-## Sets
+## Steps to create, verify and run image
 #### - create image:  docker build -t <image_name>:version .
 #### - check image: docker images
 #### - run image in container: docker run -d -p <host_port>:<container_port> <image_name>:version
