@@ -9,8 +9,8 @@
 #### 2. push images to docker hub
 ##### - login to docker-bub
     docker login
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/1c271d94-ffce-4d23-bf9f-c411ae850dc0">
 
-    (provide docker-hub username and password)
 ##### - tag image with 
     docker tag <docker-image>:<version> <docker-hub-username>/<docker-image>:<version>
 ##### - push image to docker-hub
