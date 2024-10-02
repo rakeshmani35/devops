@@ -1,0 +1,6 @@
+com\aws\rds\api\service\ProductService.class
+com\aws\rds\api\config\AWSSecretConfig.class
+com\aws\rds\api\repository\ProductRepository.class
+com\aws\rds\api\AwsRdsSecretmanagerApplication.class
+com\aws\rds\api\controller\ProductController.class
+com\aws\rds\api\entity\Product.class
