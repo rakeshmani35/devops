@@ -19,4 +19,9 @@
 ### Pull docker image from docker-hub
     docker pull <usrname>/<image_name>:<version>
 
+  e.g docker pull bitnami/mongodb
+  <img width="944" alt="image" src="https://github.com/user-attachments/assets/6966fdbe-073b-45ca-bc36-5bb2344e942a">
+
+
+
 
