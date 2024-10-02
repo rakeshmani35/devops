@@ -1,3 +1,7 @@
+## VmWare Vs Docker
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/a90a7fd1-c825-4e74-b461-91665ac87846">
+
+
 ## Docker Engine
 
 #### Docker-file create in application and Docker-engine create the image by using docker-file. And Docker-engine is push the imgae in Docker-container
