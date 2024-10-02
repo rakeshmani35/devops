@@ -16,7 +16,7 @@
 ##### - push image to docker-hub
     docker push <docker-hub-username>/<docker-image>:<version>
 
-#### pull docker image from docker-hub
+### Pull docker image from docker-hub
     docker pull <usrname>/<image_name>:<version>
 
 
