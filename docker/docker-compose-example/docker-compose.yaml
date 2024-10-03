@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  mysql-db:
+    image: 'mysql:latest'
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: transactiondb
+    ports:
+      - '3307:3306'
+
+  application:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: transaction-service:1.0
+    depends_on:
+      - mysql-db
+    ports:
+      - '9090:8181'
+    environment:
+      SPRING_DATASOURCE_URL: 'jdbc:mysql://mysql-db:3306/transactiondb'
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: password
