@@ -6,4 +6,5 @@
 #### example: for mysql
     docker pull bitnomi/mysql:<version>
     docker run mysq:<mysql>
-    
+
+#### This is repeatitive steps for all required application. To avoid this, we can automate these steps by using docker-composer. We can defind steps in "docker-compoe.yml" file.    
