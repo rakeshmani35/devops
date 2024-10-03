@@ -8,3 +8,36 @@
     docker run mysq:<mysql>
 ## Alternative approach: docker-compose.yml
 #### This is repeatitive steps for all required application. To avoid this, we can automate these steps by using docker-composer. We can defind steps in "docker-compoe.yml" file.    
+
+## steps to dockrize with mysql
+#### 1. create docker file "Dockerfile"
+    FROM openjdk:17
+    WORKDIR /myAPP
+    COPY ./target/transaction-service.jar /myAPP
+    EXPOSE 8181
+    CMD ["java","-jar","transaction-service.jar"]
+
+ #### 2. create docker-compose.yml
+    version: '3.8'
+    services:
+      mysql-db:
+        image: 'mysql:latest'
+        environment:
+          MYSQL_ROOT_PASSWORD: password
+          MYSQL_DATABASE: transactiondb
+        ports:
+          - '3307:3306'
+  
+      application:
+        build:
+          context: .
+          dockerfile: Dockerfile
+        image: transaction-service:1.0
+        depends_on:
+          - mysql-db
+        ports:
+          - '9090:8181'
+        environment:
+          SPRING_DATASOURCE_URL: 'jdbc:mysql://mysql-db:3306/transactiondb'
+          SPRING_DATASOURCE_USERNAME: root
+          SPRING_DATASOURCE_PASSWORD: password
