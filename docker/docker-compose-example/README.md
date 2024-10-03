@@ -47,7 +47,7 @@
 #### service:
     service has name of service (application). e.g. for mysql = mysql-db, for kafka = kafka
     image: latest image
-    environment: my sql databse password, database name and port(container port:mysql port)
+    environment: my sql databse password, database name and port(host machine port:mysql port)
 
 #### application:
     build: Build the application by pull the 'dockerfile' with image/version
