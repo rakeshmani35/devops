@@ -41,3 +41,13 @@
           SPRING_DATASOURCE_URL: 'jdbc:mysql://mysql-db:3306/transactiondb'
           SPRING_DATASOURCE_USERNAME: root
           SPRING_DATASOURCE_PASSWORD: password
+
+#### version:
+    This is docker-compose.yml file format. This is OPTIONAL. if not give, latest version will be take.
+#### service:
+    service has name of service (application). e.g. for mysql = mysql-db, for kafka = kafka
+    image: latest image
+    environment: my sql databse password and database name
+
+#### application:
+    Build the application by pull the 'dockerfile' with image/version, port and databse environment details
