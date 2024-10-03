@@ -1,6 +1,0 @@
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\AwsRdsSecretmanagerApplication.java
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\config\AWSSecretConfig.java
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\controller\ProductController.java
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\entity\Product.java
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\repository\ProductRepository.java
-E:\workspace\devops\aws\aws-rds-secretmanager\src\main\java\com\aws\rds\api\service\ProductService.java

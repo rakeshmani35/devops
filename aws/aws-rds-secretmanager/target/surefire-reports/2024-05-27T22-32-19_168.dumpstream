@@ -1,5 +1,0 @@
-# Created at 2024-05-27T22:32:19.308
-Boot Manifest-JAR contains absolute paths in classpath 'E:\workspace\devops\aws\aws-rds-secretmanager\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
