@@ -51,3 +51,4 @@
 
 #### application:
     Build the application by pull the 'dockerfile' with image/version, port and databse environment details
+    depens-db = service name(in this case mysql-db)
