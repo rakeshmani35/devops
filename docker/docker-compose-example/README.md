@@ -60,7 +60,11 @@
     mvn clean install -DskipTests
 #### 2. Run docker compose file (start local docker fist)
     docker-compose up -d
-<img width="898" alt="image" src="https://github.com/user-attachments/assets/29b763cd-4de8-4610-81ff-52c3fe687d77">   
+<img width="898" alt="image" src="https://github.com/user-attachments/assets/29b763cd-4de8-4610-81ff-52c3fe687d77">  
 
 #### 3. Check image will be create in local docker
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/ea388647-85a4-4b87-908f-8351eaed546a">
+
+#### 4. Verify database connectin with port:3307 (this is container port)
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/335cdbd0-a4b9-43d1-9188-0de56bcc706a">
+
