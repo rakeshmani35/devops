@@ -50,5 +50,7 @@
     environment: my sql databse password, database name and port(container port:mysql port)
 
 #### application:
-    Build the application by pull the 'dockerfile' with image/version, port and databse environment details
+    build: Build the application by pull the 'dockerfile' with image/version
     depens-db = service name(in this case mysql-db)
+    ports: container port:application port
+    environment: database details
