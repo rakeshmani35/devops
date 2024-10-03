@@ -53,4 +53,4 @@
     build: Build the application by pull the 'dockerfile' with image/version
     depens-db = service name(in this case mysql-db)
     ports: container port:application port
-    environment: database details
+    environment: database details following the spring proeprties file naming convesion
