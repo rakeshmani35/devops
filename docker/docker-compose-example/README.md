@@ -58,7 +58,7 @@
 ## Steps to Run application
 #### 1. Build Application by skiping test
     mvn clean install -DskipTests
-#### 2. Run docker compose file (start local docker fist)
+#### 2. Run docker compose file (start local docker first)
     docker-compose up -d
 <img width="898" alt="image" src="https://github.com/user-attachments/assets/29b763cd-4de8-4610-81ff-52c3fe687d77">  
 
