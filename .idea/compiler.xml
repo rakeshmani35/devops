@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-docker" />
         <module name="transaction-service" />
+        <module name="inventory-service" />
+        <module name="springboot-docker" />
         <module name="JenkinsCiCdApplication" />
       </profile>
     </annotationProcessing>
@@ -15,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JenkinsCiCdApplication" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
       <module name="springboot-docker" options="-parameters" />
       <module name="transaction-service" options="-parameters" />
     </option>

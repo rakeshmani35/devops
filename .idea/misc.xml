@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/docker/springboot-docker/pom.xml" />
         <option value="$PROJECT_DIR$/jenkins/JenkinsCiCdApplication/pom.xml" />
         <option value="$PROJECT_DIR$/docker/docker-compose-example/pom.xml" />
+        <option value="$PROJECT_DIR$/k8s/spring-boot-crud-k8s/pom.xml" />
       </list>
     </option>
   </component>

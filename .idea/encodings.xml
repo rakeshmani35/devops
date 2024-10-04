@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/docker/docker-compose-example/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker/springboot-docker/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jenkins/JenkinsCiCdApplication/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/k8s/spring-boot-crud-k8s/src/main/java" charset="UTF-8" />
   </component>
 </project>
