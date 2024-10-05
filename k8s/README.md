@@ -52,6 +52,9 @@ Similarly. In kubernetes also has Controller-Manager(manager), API-Server(TL), E
 #### 'Worker-Node' has 2 components, 'kube proxy' and 'kubelet'. 'kubelet' is act as a manager for 'Worker-Node'. 'kubelet' share all information of POD/container to 'ETCD' and 'API-Server'. Networking stuff managing by 'kube proxy', like assign IP address to PODs.
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/abf4fa05-8bca-447f-b4fa-50fff9e54f7c">
 
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/dd17e27e-dba7-4bc7-8832-bf414ad66132">
+
+
 
 
 
