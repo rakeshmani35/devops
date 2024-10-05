@@ -11,4 +11,8 @@
 
 #### A kubernetes cluster has multiple 'nodes'(worker nodes). A single node has multiple 'pods'. A single pod has multiple docker containers.
 
+#### App-1 and App-2 running in conatiner-1 and container-2. To communicate between them we have to keep both container in same POD and POD will be in the NODE and NODE will part of cluster.
+<img width="503" alt="image" src="https://github.com/user-attachments/assets/eb2e727c-28e4-4c14-9d42-7dd721c3ae76">
+
+
 
