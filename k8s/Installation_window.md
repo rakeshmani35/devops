@@ -1,5 +1,5 @@
 ## install kubectl reference
-    kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+        kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
     minikube: https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download
 
 ## Installation Steps
@@ -18,7 +18,39 @@
   
 #### 1.4 Test to ensure the version of kubectl is the same as downloaded:
     kubectl version --client
+  <img width="337" alt="image" src="https://github.com/user-attachments/assets/5e182d88-23b7-452d-99ea-d065867cacac">
+  
             OR
-    kubectl version --client --output=yaml        
+    kubectl version --client --output=yaml     
+  <img width="499" alt="image" src="https://github.com/user-attachments/assets/dd1243fe-f8b4-43dc-b8f1-2967e00128b8">
+  
 ## 2. minikube setup in windows
-#### 2.1 
+#### 2.1 Use 'winget' tool
+    winget install minikube
+         OR
+     winget install Kubernetes.Minikube
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/c61d1313-7b6f-4347-9b8c-ad14e969abcd">
+
+#### 2.2 Check minikube version in power shell
+    minikube version
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/599e8a5e-cee8-4c19-a746-6780870271d1">
+
+#### 2.3 start minikube with docker driver
+    minikube start --driver=docker
+   <img width="950" alt="image" src="https://github.com/user-attachments/assets/9e048d49-81ec-4de6-ab1c-b48fd20be07c">
+
+#### In case of warning "Unable to resolve the current Docker CLI context “default”: context “default”: context not found: on Windows". Run below command in Power Shell
+    docker context use default
+<img width="363" alt="image" src="https://github.com/user-attachments/assets/e43ba9c3-9c54-4dea-a115-2a85dee6fd8e">
+
+#### 2.4 check minikube status
+     minikube status
+   <img width="388" alt="image" src="https://github.com/user-attachments/assets/6a28804c-7184-4731-a3c2-d94c961a6c2d">
+
+#### 2.5 minikube stop 
+    minikube stop
+  
+ 
+
+
+
