@@ -50,7 +50,14 @@
 #### 2.5 minikube stop 
     minikube stop
   
- 
+## check kubectl cluster status
+    kubectl cluster-info
+  <img width="749" alt="image" src="https://github.com/user-attachments/assets/34d2aff0-94a4-4758-8a37-1e86e57e87f4">
+
+    kubectl cluster-info
+  <img width="509" alt="image" src="https://github.com/user-attachments/assets/103940bd-bc30-4725-b778-e846a91de7af">
+
+  
 
 
 
