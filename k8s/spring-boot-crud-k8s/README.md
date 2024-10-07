@@ -77,3 +77,5 @@ curl --location 'http://127.0.0.1:53887/products/bulk' \
 #### 3.1 delete a Kubernetes namespace using kubectl
     kubectl delete namespace <namespace-name>
 
+#### 3.2 Verify namespace
+    kubectl get namespaces
