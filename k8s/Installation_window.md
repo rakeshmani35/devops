@@ -15,14 +15,28 @@
 #### 1.3 Validate the kubectl binary against the checksum file:
     $(Get-FileHash -Algorithm SHA256 .\kubectl.exe).Hash -eq $(Get-Content .\kubectl.exe.sha256)
   <img width="793" alt="image" src="https://github.com/user-attachments/assets/eac1562c-bf6d-4713-aaea-07e48d3e2ad4">
-  
+
+####                OR
+        certutil -hashfile kubectl.exe SHA256
+<img width="406" alt="image" src="https://github.com/user-attachments/assets/ff7c3532-b9a9-44f3-8324-d58f40ed9924">
+        
+
 #### 1.4 Test to ensure the version of kubectl is the same as downloaded:
     kubectl version --client
   <img width="337" alt="image" src="https://github.com/user-attachments/assets/5e182d88-23b7-452d-99ea-d065867cacac">
   
-            OR
+ ####           OR
     kubectl version --client --output=yaml     
   <img width="499" alt="image" src="https://github.com/user-attachments/assets/dd1243fe-f8b4-43dc-b8f1-2967e00128b8">
+
+#### 1.5 Verify that kubectl.exe has been successfully downloaded by running:
+    dir kubectl.exe
+<img width="401" alt="image" src="https://github.com/user-attachments/assets/aa4d7db9-0c11-4a2d-ae5a-4001380f1421">
+
+####             OR
+    where kubectl
+<img width="426" alt="image" src="https://github.com/user-attachments/assets/284ef27b-3db0-4a14-bcf9-29e7e077971b">
+
   
 ## 2. minikube setup in windows
 #### 2.1 Use 'winget' tool
