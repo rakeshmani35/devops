@@ -43,24 +43,37 @@ curl --location 'http://127.0.0.1:53887/products/bulk' \
     minikube docker-env
 <img width="863" alt="image" src="https://github.com/user-attachments/assets/48db7fa1-2a9c-4e18-bc84-9e05d926126d">
 
-#### 2.2  create docker image of application
+#### DOCKER_TLS_VERIFY=1: This enables TLS verification for secure communication.
+#### DOCKER_HOST=tcp://127.0.0.1:2376: This sets Docker to use Minikube's Docker daemon, which listens on the localhost at port 2376.
+#### DOCKER_CERT_PATH=C:\Users\YourUsername.minikube\certs: This is the path to the Minikube certificates needed for Docker to securely communicate with Minikube’s Docker daemon.
+#### MINIKUBE_ACTIVE_DOCKERD=minikube: This indicates that the active Docker environment is now Minikube.
+
+#### 2.2 To apply these settings in CMD, you need to execute them
+    @FOR /f "tokens=*" %i IN ('minikube docker-env') DO @%i
+<img width="727" alt="image" src="https://github.com/user-attachments/assets/793231dc-2136-4d27-a7d2-1b036f4a9e37">
+
+#### 2.3  create docker image of application
     docker build -t springapp:1.0 .
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/38ddc007-386f-44c8-a049-ee5318c4962a">
 
-#### 2.3 check docker images
+#### 2.4 check docker images
     docker images    
-<img width="622" alt="image" src="https://github.com/user-attachments/assets/466a03a8-92c8-4c13-b1d0-9811fe9c2abe">
+<img width="676" alt="image" src="https://github.com/user-attachments/assets/0ff6daaa-05ee-4a2d-a09d-c6600903a4b0">
 
-#### 2.4 create namespace for application
+#### 2.5 create namespace for application
     kubectl create namespace myappnamespace
-![Uploading image.png…]()
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/629d6c72-fefc-47bf-85df-38a9d617edbd">
 
-#### 2.5 create deployment object (replica=3 means 3 pod will create and each pod run springapp image)
+#### 2.6 create deployment object (replica=3 means 3 pod will create and each pod run springapp image)
     kubectl create deployment userapp-deployment --image=springapp:1.0 --replicas=3 port=9191 --namespace=myappnamespace
 
-#### 2.6 check deployment object
+#### 2.7 check deployment object
     kubectl get deployment -n myappnamespace
 
-#### 2.7 check K8S pods
+#### 2.8 check K8S pods
     kubectl get pods
+
+## 3. Important windows command
+#### 3.1 delete a Kubernetes namespace using kubectl
+    kubectl delete namespace <namespace-name>
 
