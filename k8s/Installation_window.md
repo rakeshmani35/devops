@@ -47,6 +47,8 @@
      minikube status
    <img width="388" alt="image" src="https://github.com/user-attachments/assets/6a28804c-7184-4731-a3c2-d94c961a6c2d">
 
+#### Control Plane: is master node
+
 #### 2.5 minikube stop 
     minikube stop
   
@@ -54,7 +56,7 @@
     kubectl cluster-info
   <img width="749" alt="image" src="https://github.com/user-attachments/assets/34d2aff0-94a4-4758-8a37-1e86e57e87f4">
 
-    kubectl cluster-info
+    kubectl get node OR kubectl get nodes
   <img width="509" alt="image" src="https://github.com/user-attachments/assets/103940bd-bc30-4725-b778-e846a91de7af">
 
   
