@@ -72,7 +72,7 @@ curl --location 'http://127.0.0.1:53887/products/bulk' \
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/629d6c72-fefc-47bf-85df-38a9d617edbd">
 
 #### 2.7 create deployment object (replica=3 means 3 pod will create and each pod run springapp image)
-    kubectl create deployment userapp-deployment --image=springapp:1.0 --replicas=3 port=9191 --namespace=myappnamespace
+    kubectl create deployment userapp-deployment --image=springapp:1.0 --replicas=3 --port=9191 --namespace=myappnamespace
 
 #### 2.8 check deployment object
     kubectl get deployment -n myappnamespace
