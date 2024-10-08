@@ -46,7 +46,7 @@
 <img width="810" alt="image" src="https://github.com/user-attachments/assets/c61d1313-7b6f-4347-9b8c-ad14e969abcd">
 
 #### 2.2 Check minikube version in power shell
-    minikube version
+    minikube --version
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/599e8a5e-cee8-4c19-a746-6780870271d1">
 
 #### 2.3 start minikube with docker driver
