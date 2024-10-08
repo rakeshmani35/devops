@@ -73,12 +73,19 @@ curl --location 'http://127.0.0.1:53887/products/bulk' \
 
 #### 2.7 create deployment object (replica=3 means 3 pod will create and each pod run springapp image)
     kubectl create deployment userapp-deployment --image=springapp:1.0 --replicas=3 --port=9191 --namespace=myappnamespace
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/2231d12e-13f8-4687-a11b-8ae6d6c8dc51">
 
 #### 2.8 check deployment object
     kubectl get deployment -n myappnamespace
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/3fc5ac2e-58ac-459d-b91b-451d5b152f90">
 
 #### 2.9 check K8S pods
-    kubectl get pods
+    kubectl get pods -n myappnamespace
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/a612106f-e7a3-4b55-ac4f-6fdea8f6e1f3">
+
+#### 2.9 check pod log
+    kubectl logs <pod-name> -n myappnamespace
+
 
 ## 3. Important windows command
 #### 3.1 delete a Kubernetes namespace using kubectl
