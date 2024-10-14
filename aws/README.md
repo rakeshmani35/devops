@@ -8,4 +8,20 @@
  - AWS codebuild: this is build the application by using the 'buildspec.yaml'
  - AWS codepipeline: this is perform CI and CD task.
 
+## buildspec.yaml
+```
+version: 0.2
+phases:
+  build:
+    command:
+      - echo Entered the build phase
+      - mvn clean package
+  post_build:
+    command:
+      - echo build completed successfully
+artifacts:
+  files:
+    - target/course-service.jar
+  discard-path: yes
+```
 
