@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="transaction-service" />
         <module name="inventory-service" />
+        <module name="aws-ci-cd" />
         <module name="springboot-docker" />
         <module name="JenkinsCiCdApplication" />
       </profile>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JenkinsCiCdApplication" options="-parameters" />
+      <module name="aws-ci-cd" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="springboot-docker" options="-parameters" />
       <module name="transaction-service" options="-parameters" />
