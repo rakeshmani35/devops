@@ -1,5 +1,5 @@
                                                              Helm for Kubernetes
-### 1.	Installation
+### 1.	Helm Installation
 
 https://helm.sh/docs/intro/install/
 
