@@ -55,6 +55,10 @@ CMD ["java", "-jar", "spring-docker.jar"]
 #### docker images
  <img width="472" alt="image" src="https://github.com/user-attachments/assets/42e13d21-fd8f-4817-b2d8-7fe7d18f1b41">
 
+### check minikube status (minikube is synk with docker or not, should show "docker-env: in-use")
+    minikube status
+  <img width="420" alt="image" src="https://github.com/user-attachments/assets/0c0a99f8-2cd8-4206-ba54-50a7f3663212">
+
 
 ### 5.	Run spring Application in K8S
 Build docker image
