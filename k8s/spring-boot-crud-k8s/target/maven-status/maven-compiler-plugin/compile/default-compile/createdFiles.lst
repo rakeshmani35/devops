@@ -1,0 +1,5 @@
+com\k8s\repository\ProductRepository.class
+com\k8s\entity\Product.class
+com\k8s\InventoryServiceApplication.class
+com\k8s\controller\ProductController.class
+com\k8s\service\ProductService.class
