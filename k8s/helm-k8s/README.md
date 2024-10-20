@@ -31,7 +31,7 @@ CMD ["java", "-jar", "spring-docker.jar"]
 
 
 
-### 3.	Start docker and minikube
+### 3.	Start minikube
     docker context use default
     minikube start --driver=docker
 
