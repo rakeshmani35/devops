@@ -103,8 +103,10 @@ Goto project directory
 
 
     kubectl get all
- <img width="467" alt="image" src="https://github.com/user-attachments/assets/87e522a5-58ad-4b32-b4e4-991fa4a63a33">
+ <img width="754" alt="image" src="https://github.com/user-attachments/assets/49b53d61-3dee-4022-9167-56107caeb3b2">
+
 
      kubectl get pods
- <img width="470" alt="image" src="https://github.com/user-attachments/assets/7612c569-5b9b-4f7a-b1d4-fc9af34017a8">
+ <img width="752" alt="image" src="https://github.com/user-attachments/assets/2cccaccc-b7cd-436d-86fb-6534e4bc32a4">
+
 
