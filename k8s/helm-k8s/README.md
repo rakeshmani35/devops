@@ -110,3 +110,15 @@ Goto project directory
  <img width="752" alt="image" src="https://github.com/user-attachments/assets/2cccaccc-b7cd-436d-86fb-6534e4bc32a4">
 
 
+### 8. Test applivation
+    kubectl get svc
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/e7f91ff7-b876-49f7-ac8d-914ca016beb6">
+
+#### proxy url
+    minikube servie myapp-chart-spring-helm-chart
+<img width="672" alt="image" src="https://github.com/user-attachments/assets/c306ef79-c607-40d1-9883-a38c77556077">
+
+#### http://127.0.0.1:59199/customer
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/dabe50aa-e31a-4888-9085-81c24b127ae4">
+
+
