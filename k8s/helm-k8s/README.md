@@ -53,6 +53,7 @@ CMD ["java", "-jar", "spring-docker.jar"]
 
 
 #### docker images
+    docker images
  <img width="472" alt="image" src="https://github.com/user-attachments/assets/42e13d21-fd8f-4817-b2d8-7fe7d18f1b41">
 
 ### check minikube status (minikube is synk with docker or not, should show "docker-env: in-use")
