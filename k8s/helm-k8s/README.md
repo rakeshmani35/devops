@@ -86,7 +86,7 @@ Goto project directory
 
 
 #### in application can see helm chart created
-     <img width="186" alt="image" src="https://github.com/user-attachments/assets/b6cc3512-9936-435f-9d7c-3607358b7061">
+  <img width="186" alt="image" src="https://github.com/user-attachments/assets/b6cc3512-9936-435f-9d7c-3607358b7061">
 
      tree spring-helm-chart
  <img width="425" alt="image" src="https://github.com/user-attachments/assets/b8c7f7a8-32fd-4022-8cb8-392940bc141c">
