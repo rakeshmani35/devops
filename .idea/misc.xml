@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/docker/docker-compose-example/pom.xml" />
         <option value="$PROJECT_DIR$/k8s/spring-boot-crud-k8s/pom.xml" />
         <option value="$PROJECT_DIR$/aws/aws-ci-cd/pom.xml" />
+        <option value="$PROJECT_DIR$/aws/springboot-aws-sns/pom.xml" />
+        <option value="$PROJECT_DIR$/k8s/helm-k8s/pom.xml" />
+        <option value="$PROJECT_DIR$/aws/springboot-aws-CI-CD/pom.xml" />
+        <option value="$PROJECT_DIR$/aws/springboot-aws-sqs/pom.xml" />
       </list>
     </option>
   </component>

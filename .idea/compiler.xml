@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="transaction-service" />
+        <module name="springboot-aws-sns (1)" />
         <module name="inventory-service" />
+        <module name="helm-k8s" />
+        <module name="transaction-service" />
+        <module name="springboot-aws-sns" />
         <module name="aws-ci-cd" />
         <module name="springboot-docker" />
         <module name="JenkinsCiCdApplication" />
@@ -19,7 +22,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JenkinsCiCdApplication" options="-parameters" />
       <module name="aws-ci-cd" options="-parameters" />
+      <module name="helm-k8s" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="springboot-aws-sns" options="-parameters" />
+      <module name="springboot-aws-sns (1)" options="-parameters" />
       <module name="springboot-docker" options="-parameters" />
       <module name="transaction-service" options="-parameters" />
     </option>
